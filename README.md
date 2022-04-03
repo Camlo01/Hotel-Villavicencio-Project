@@ -1,4 +1,4 @@
-# Hotel-Villavicencio-Project-
+# Hotel-Villavicencio-Project
 
 Este es un sitio web para portafolio
 
@@ -10,5 +10,3 @@ La barra de navegación requiere posicionamiento y crear la etiqueta para las di
 ## Main
 
 El Main se continuará al finalizar el header
-
-
