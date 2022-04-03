@@ -1,6 +1,6 @@
 # Hotel-Villavicencio-Project
 
-Este es un sitio web para portafolio
+Este es un proyecto personal de un hotel para portafolio
 
 ## Header
 
