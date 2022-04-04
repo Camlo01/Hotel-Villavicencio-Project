@@ -17,27 +17,86 @@ html {
 /* Estilos header */
 header {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   font-family: "Inter", sans-serif;
 }
 
-header .header-nav {
+.header-nav {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 17px;
   color: var(--text-header);
-  background-color: rgb(0, 0, 0);
-  display: flex;
-  justify-content: center;
+  background-color: #175bc1;
+  display: inline;
+  align-items: center;
   width: 100%;
-  padding: 14px;
+  padding: 0px 0px;
+  justify-content: space-between;
+  font-size: 2.2rem;
+  position: fixed;
+  z-index: 1;
 }
-.header-nav img {
+
+.Hotelcom {
+  padding: 20px;
+  display: inline-block;
+}
+.button-responsive-menu {
+  transform: rotate(90deg);
   position: relative;
+  border: 2px solid #ffffff;
+  border-radius: 7px;
+  width: 40px;
+  height: 40px;
+  margin-top: 9px;
+  margin-right: 30px;
+
+  float: right;
+}
+
+#check-navbar {
+  display: none;
+}
+
+.header-navbar {
+  display: none;
+}
+.button-responsive-menu:hover {
+  background-color: #164c9e;
+  border: 2px solid #133b72;
+}
+/* ACÁ IBA EL CODIGO DEL HEADER  */
+
+@media (max-width: 800px) {
+  .header-navbar {
+    display: contents;
+    position: fixed;
+  }
+  .header-navbar ul {
+    background-color: #164c9e;
+    width: 100%;
+  }
+
+  .header-navbar li {
+    text-align: center;
+    list-style: none;
+    width: 100%;
+    padding: 30px;
+  }
+
+  .header-navbar li a {
+    color: #ffffff;
+    padding: 24px;
+    text-decoration: none;
+  }
+
+  .header-navbar li:hover {
+    background-color: #175bc1;
+  }
+  .header-navbar li a:hover {
+    color: #0d274e;
+  }
 }
 
 header .header-title {
@@ -110,3 +169,39 @@ header .header--button {
   border-radius: 1;
   margin-bottom: 18px;
 }
+
+/* .button-responsive-menu {
+  transform: rotate(90deg);
+} */
+
+/* BARRA DE NAVEGACION DENTRO DEL HEADER  */
+/* 
+.header-navbar {
+  position: relative;
+  justify-self: end;
+}
+.header-navbar ul {
+  margin-right: 20px;
+  list-style: none;
+  float: right;
+}
+
+.header-navbar li {
+  display: inline-flex;
+  background-color: #175bc1;
+  margin: 0 2px;
+}
+
+.header-navbar li a {
+  text-decoration: none;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.header-navbar li a:hover {
+  background-color: rgb(74, 163, 253);
+  color: #00255c;
+}
+
+
+*/
