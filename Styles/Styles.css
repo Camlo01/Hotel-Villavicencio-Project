@@ -43,12 +43,12 @@ header {
   display: inline-block;
 }
 .button-responsive-menu {
-  transform: rotate(90deg);
   position: relative;
   border: 2px solid #ffffff;
   border-radius: 7px;
-  width: 40px;
-  height: 40px;
+  width: 38px;
+  height: 38px;
+  padding: 5px;
   margin-top: 9px;
   margin-right: 30px;
 
@@ -70,7 +70,7 @@ header {
 
 @media (max-width: 800px) {
   .header-navbar {
-    display: contents;
+    display: none;
     position: fixed;
   }
   .header-navbar ul {
@@ -97,6 +97,11 @@ header {
   .header-navbar li a:hover {
     color: #0d274e;
   }
+}
+
+#check-navbar:checked ~ .header-navbar {
+  display: block;
+  width: 100%;
 }
 
 header .header-title {
