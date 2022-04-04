@@ -1,42 +1,43 @@
+@media (max-width: 801px) {
+  .header-navbar {
+    display: none;
+    position: fixed;
+  }
+  .header-navbar ul {
+    background-color: #164c9e;
+    width: 100%;
+  }
 
+  .header-navbar li {
+    text-align: center;
+    list-style: none;
+    width: 100%;
+    padding: 30px;
+  }
 
-.header-nav {
-  display: inline-flex;
-  padding: 0px 30px;
-  position: fixed;
-}
-.header-navbar {
-  display: contents;
-  position: relative;
-  justify-self: end;
-  display: contents;
-}
-.header-navbar ul {
-  margin-right: 18px;
-  list-style: none;
-  float: right;
-}
+  .header-navbar li a {
+    color: #ffffff;
+    padding: 24px;
+    text-decoration: none;
+  }
 
-.header-navbar li {
-  display: inline-flex;
-  background-color: #175bc1;
-  margin: 0 2px;
-}
+  .header-navbar li:hover {
+    background-color: #175bc1;
+  }
+  .header-navbar li a:hover {
+    color: #0d274e;
+  }
 
-.header-navbar li a {
-  text-decoration: none;
-  padding: 20px;
-  color: rgb(255, 255, 255);
-}
-
-.header-navbar li a:hover {
-  background-color: rgb(74, 163, 253);
-  color: #00255c;
-}
-
-#check-navbar {
-  display: none;
-}
-.button-responsive-menu {
-  display: none;
+  /* ---------------------------------------------------------------
+----------------------- TEXTO Y BOTON ----------------------------
+--------------------------------------------------------------- */
+  header .header-title {
+    min-height: 100px;
+    background-image: url(../Assets/images/tablet/header-bk-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    align-items: center;
+  }
 }
