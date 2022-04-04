@@ -1,0 +1,42 @@
+
+
+.header-nav {
+  display: inline-flex;
+  padding: 0px 30px;
+  position: fixed;
+}
+.header-navbar {
+  display: contents;
+  position: relative;
+  justify-self: end;
+  display: contents;
+}
+.header-navbar ul {
+  margin-right: 18px;
+  list-style: none;
+  float: right;
+}
+
+.header-navbar li {
+  display: inline-flex;
+  background-color: #175bc1;
+  margin: 0 2px;
+}
+
+.header-navbar li a {
+  text-decoration: none;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.header-navbar li a:hover {
+  background-color: rgb(74, 163, 253);
+  color: #00255c;
+}
+
+#check-navbar {
+  display: none;
+}
+.button-responsive-menu {
+  display: none;
+}
