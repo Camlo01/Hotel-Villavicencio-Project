@@ -1,12 +1,11 @@
-@media (min-width: 800px) {
-  
+@media (min-width: 801px) {
 }
 
 /* ---------------------------------------------------------------
 ------------------------ HEADER -------------------------------
 --------------------------------------------------------------- */
 .header-title {
-height: 560px;
+  height: 560px;
   width: 100%;
   background-image: url(../Assets/images/pc/header-bk-1.png);
   background-repeat: no-repeat;
@@ -99,7 +98,7 @@ header .header--button {
   );
   width: 220px;
   height: 55px;
-  margin: -300px calc(75% - 90px);
+  margin: -300px calc(75% - 140px);
   margin-bottom: 15px;
 
   box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
