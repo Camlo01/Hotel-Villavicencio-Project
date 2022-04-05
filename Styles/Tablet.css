@@ -34,7 +34,7 @@
 ----------------------- TEXTO Y BOTON ----------------------------
 --------------------------------------------------------------- */
   header .header-title {
-    min-height: 100px;
+    min-height: 550px;
     background-image: url(../Assets/images/tablet/header-bk-1.png);
     background-repeat: no-repeat;
     background-size: cover;

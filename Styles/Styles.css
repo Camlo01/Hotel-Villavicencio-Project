@@ -117,7 +117,7 @@ header {
 
 @media (max-width: 500px) {
   header .header-title {
-    min-height: 100px;
+    height: 470px;
     background-image: url(../Assets/images/phone/header-bk-1.png);
     background-repeat: no-repeat;
     background-size: cover;
