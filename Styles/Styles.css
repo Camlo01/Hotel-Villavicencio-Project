@@ -6,9 +6,9 @@
 
 html {
   font-size: 62.5%;
-  height: 1000px;
   font-family: "Inter";
   font-style: normal;
+  height: 3000px;
 }
 :root {
   --blue-king: #175bc1;
@@ -16,6 +16,8 @@ html {
   --extreme-dark-blue-king: #133b72;
   --just-white: #fff;
   --gray-separator: #bbb;
+  --elegant-gray: #808080;
+  --shadow-elegant-gray: #606060;
 }
 
 /* ---------------------------------------------------------------
@@ -209,15 +211,80 @@ header .header--button {
 --------------------------------------------------------------- */
 
 main {
-  padding-top: 40px;
+  height: auto;
 }
 .section-separator {
-  width: 80%;
-  margin: 0 auto;
+  width: 75%;
+  margin: 30px auto;
+  margin-top: 50px;
+  background-color: var(--elegant-gray);
   color: var(--gray-separator);
   border-radius: 1;
-  margin-bottom: 18px;
 }
 /* ---------------------------------------------------------------
 ------------------------ SERVICES --------------------------------
 --------------------------------------------------------------- */
+.main-section-services h2 {
+  font-size: 2.6rem;
+  font-weight: bold;
+  color: var(--elegant-gray);
+  display: inline-block;
+  position: relative;
+  left: 50px;
+
+}
+
+.services-card {
+  width: 260px;
+  height: 232px;
+  background: var(--just-white);
+  box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin: 30px auto;
+  padding: 0px 15px;
+}
+
+.logo-services {
+  display: inline-flex;
+  margin: 10px 0 0 5px;
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.services-card .services--card-title {
+  display: inline-flex;
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--elegant-gray);
+  position: relative;
+  margin-left: 5px;
+  bottom: 12px;
+}
+.bed {
+  background-image: url(/Assets/Icons/PNG/Cama.png);
+}
+
+.menu {
+  background-image: url(/Assets/Icons/PNG/Tapa.png);
+}
+
+.park {
+  background-image: url(/Assets/Icons/PNG/Rodadero.png);
+}
+
+.key {
+  background-image: url(/Assets/Icons/PNG/Llave.png);
+}
+
+.services-card .services--card-body {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.6rem;
+  width: 230px;
+  position: relative;
+  top: 4px;
+  color: var(--shadow-elegant-gray);
+}
