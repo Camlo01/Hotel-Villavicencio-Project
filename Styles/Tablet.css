@@ -42,12 +42,24 @@
   }
 }
 
-@media (max-width: 801px){
- .services-cards-container {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 30px;
+/* ---------------------------------------------------------------
+------------------------ SERVICES --------------------------------
+--------------------------------------------------------------- */
+@media (max-width: 676px) {
+  .services-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 30px;
+  }
+  .services-cards-container {
+    display: flex;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+  }
 }
 
-.services-card {
+.main-section-services h2 {
+  left: calc(20%);
 }

@@ -109,9 +109,26 @@ header .header--button {
 }
 
 .services-cards-container {
+  padding: 15px;
   display: flex;
   height: 316px;
   overflow-x: scroll;
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
+}
+
+@media (min-width: 1280px) {
+  .services-cards-container {
+    justify-content: center;
+
+    scrollbar-width: none;
+  }
+
+  .main-section-services .section-services-separator-down {
+    position: relative;
+    top: -70px;
+  }
+}
+.services-card {
+  margin: 0 30px;
 }
