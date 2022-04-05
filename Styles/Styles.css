@@ -4,12 +4,6 @@
   box-sizing: border-box;
 }
 
-html {
-  font-size: 62.5%;
-  font-family: "Inter";
-  font-style: normal;
-  height: 1300px;
-}
 :root {
   --blue-king: #175bc1;
   --dark-blue-king: #164c9e;
@@ -18,6 +12,13 @@ html {
   --gray-separator: #bbb;
   --elegant-gray: #808080;
   --shadow-elegant-gray: #606060;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Inter";
+  font-style: normal;
+  height: 1300px;
 }
 
 /* ---------------------------------------------------------------
@@ -117,7 +118,7 @@ header {
 
 @media (max-width: 500px) {
   header .header-title {
-    height: 470px;
+    height: 550px;
     background-image: url(../Assets/images/phone/header-bk-1.png);
     background-repeat: no-repeat;
     background-size: cover;

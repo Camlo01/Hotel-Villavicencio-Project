@@ -13,7 +13,7 @@
     list-style: none;
     width: 100%;
     padding: 30px;
-    
+
     border: 1px solid var(--blue-king);
   }
 
@@ -34,7 +34,7 @@
 ----------------------- TEXTO Y BOTON ----------------------------
 --------------------------------------------------------------- */
   header .header-title {
-    min-height: 550px;
+    min-height: 580px;
     background-image: url(../Assets/images/tablet/header-bk-1.png);
     background-repeat: no-repeat;
     background-size: cover;
