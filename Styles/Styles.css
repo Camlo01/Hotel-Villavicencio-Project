@@ -83,15 +83,15 @@ header {
   .header-navbar li {
     text-align: center;
     list-style: none;
-    width: 100%;
-    padding: 30px;
     border: 1px solid var(--blue-king);
   }
 
   .header-navbar li a {
     color: var(--just-white);
-    padding: 24px;
     text-decoration: none;
+    display: inline-block;
+    padding: 30px;
+    width: 100%;
   }
 
   .header-navbar li:hover {
@@ -118,13 +118,19 @@ header {
 
 @media (max-width: 500px) {
   header .header-title {
-    height: 550px;
-    background-image: url(../Assets/images/phone/header-bk-1.png);
+    height: 430px;
+    background-image: url(../Assets/images/phone/header-bk-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     align-items: center;
+  }
+}
+
+@media (min-height: 740px) {
+  header .header-title {
+    height: 545px;
   }
 }
 

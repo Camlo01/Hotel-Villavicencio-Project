@@ -19,8 +19,9 @@
 
   .header-navbar li a {
     color: #ffffff;
-    padding: 24px;
     text-decoration: none;
+    display: inline-block;
+    width: 100%;
   }
 
   .header-navbar li:hover {
@@ -35,7 +36,7 @@
 --------------------------------------------------------------- */
   header .header-title {
     min-height: 580px;
-    background-image: url(../Assets/images/tablet/header-bk-1.png);
+    background-image: url(../Assets/images/tablet/header-bk-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
