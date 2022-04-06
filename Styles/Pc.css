@@ -7,7 +7,7 @@
 .header-title {
   height: 545px;
   width: 100%;
-  background-image: url(../Assets/images/pc/header-bk-1.png);
+  background-image: url(../Assets/images/pc/header-bk-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -106,4 +106,29 @@ header .header--button {
   border-radius: 25px;
   padding-top: 9px;
   color: white;
+}
+
+.services-cards-container {
+  padding: 15px;
+  display: flex;
+  height: 316px;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
+
+@media (min-width: 1280px) {
+  .services-cards-container {
+    justify-content: center;
+
+    scrollbar-width: none;
+  }
+
+  .main-section-services .section-services-separator-down {
+    position: relative;
+    top: -70px;
+  }
+}
+.services-card {
+  margin: 0 30px;
 }
