@@ -1,126 +1,127 @@
-@media (min-width: 801px) {
+:root {
+  --blue-king: #175bc1;
+  --dark-blue-king: #164c9e;
+  --extreme-dark-blue-king: #133b72;
+  --blue-hover: #0d274e;
+  --just-white: #fff;
+  --gray-separator: #bbb;
+  --elegant-gray: #808080;
+  --shadow-elegant-gray: #606060;
 }
 
-/* ---------------------------------------------------------------
+@media (min-width: 801px) {
+  /* ---------------------------------------------------------------
 ------------------------ HEADER -------------------------------
 --------------------------------------------------------------- */
-.header-title {
-  height: 545px;
-  width: 100%;
-  background-image: url(../Assets/images/pc/header-bk-1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  align-items: center;
-}
+  .header-title {
+    height: 545px;
+    width: 100%;
+    background-image: url(../Assets/images/pc/header-bk-1.jpg);
+  }
 
-.header-nav {
-  display: inline-flex;
-  padding: 0px 30px;
-  position: fixed;
-}
-.header-navbar {
-  display: contents;
-  position: relative;
-  justify-self: end;
-  display: contents;
-}
-.header-navbar ul {
-  margin-right: 18px;
-  list-style: none;
-  float: right;
-}
+  .header-nav {
+    display: inline-flex;
+    padding: 0px 30px;
+    position: fixed;
+  }
+  .header-navbar {
+    display: contents;
+    position: relative;
+    justify-self: end;
+    display: contents;
+  }
+  .header-navbar ul {
+    margin-right: 18px;
+    list-style: none;
+    float: right;
+  }
 
-.header-navbar li {
-  display: inline-flex;
-  background-color: #175bc1;
-  margin: 0 2px;
-}
+  .header-navbar li {
+    display: inline-flex;
+    background-color: var(--blue-king);
+    margin: 0 2px;
+  }
 
-.header-navbar li a {
-  text-decoration: none;
-  padding: 20px;
-  color: rgb(255, 255, 255);
-}
+  .header-navbar li a {
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+  }
 
-.header-navbar li a:hover {
-  background-color: rgb(74, 163, 253);
-  color: #00255c;
-}
+  .header-navbar li a:hover {
+    background-color: rgb(74, 163, 253);
+    color: #00255c;
+  }
 
-#check-navbar {
-  display: none;
-}
-.button-responsive-menu {
-  display: none;
-}
+  #check-navbar {
+    display: none;
+  }
+  .button-responsive-menu {
+    display: none;
+  }
 
-/* ---------------------------------------------------------------
-  --------------------- TEXTO Y BOTON ------------------------------
+  /* ---------------------------------------------------------------
+  -------------------TEXTO Y BOTON del HEADER ----------------------
   --------------------------------------------------------------- */
 
-.header-title .header-title--capa {
-  width: 100%;
-  height: 360px;
-  background: linear-gradient(
-    0deg,
-    rgba(67, 162, 207, 0) 0%,
-    rgba(0, 0, 0, 0.8) 100%
-  );
-}
+  .header-title .header-title--capa {
+    height: 360px;
+  }
 
-.header-title h1 {
-  font-size: 5rem;
-  line-height: 4rem;
-  bottom: 160px;
-  left: calc(50% - 450px);
-}
-.header-title p {
-  font-size: 3.2rem;
-  line-height: 2.6rem;
-  width: 500px;
-  bottom: 160px;
-  left: calc(50% - 450px);
-}
-
-@media (max-width: 1000px) {
   .header-title h1 {
-    left: calc(50% - 370px);
+    font-size: 5rem;
+    line-height: 4rem;
+    bottom: 160px;
+    left: calc(50% - 450px);
   }
   .header-title p {
-    left: calc(50% - 370px);
+    font-size: 3.2rem;
+    line-height: 2.6rem;
+    width: 500px;
+    bottom: 160px;
+    left: calc(50% - 450px);
+  }
+
+  @media (max-width: 1000px) {
+    .header-title h1 {
+      left: calc(50% - 370px);
+    }
+    .header-title p {
+      left: calc(50% - 370px);
+    }
+  }
+  /* ---------------------------------------------------------------
+--------------------------- MAIN ---------------------------------
+--------------------------------------------------------------- */
+
+  header .header--button {
+    font-size: 3rem;
+    position: absolute;
+    width: 220px;
+    height: 55px;
+    margin: -300px calc(75% - 140px);
+    margin-bottom: 15px;
+    -webkit-box-shadow: -1px 2px 20px 4px rgba(0, 0, 0, 0.98);
+    box-shadow: -1px 2px 20px 4px rgba(0, 0, 0, 0.98);
+    padding-top: 9px;
+  }
+
+  /*----------------------------------------------------------------
+--------------------- section SERVICES ---------------------------
+--------------------------------------------------------------- */
+
+  .services-cards-container {
+    padding: 15px;
+    display: flex;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
   }
 }
-
-header .header--button {
-  font-size: 3rem;
-  position: absolute;
-  width: 220px;
-  height: 55px;
-  margin: -300px calc(75% - 140px);
-  margin-bottom: 15px;
-  -webkit-box-shadow: -1px 2px 20px 4px rgba(0, 0, 0, 0.98);
-  box-shadow: -1px 2px 20px 4px rgba(0, 0, 0, 0.98);
-
-  border-radius: 25px;
-  padding-top: 9px;
-  color: white;
-}
-
-.services-cards-container {
-  padding: 15px;
-  display: flex;
-  height: 316px;
-  overflow-x: scroll;
-  overscroll-behavior-x: contain;
-  scroll-snap-type: x proximity;
-}
-
 @media (min-width: 1280px) {
   .services-cards-container {
     justify-content: center;
-
     scrollbar-width: none;
   }
 
@@ -129,6 +130,7 @@ header .header--button {
     top: -70px;
   }
 }
+
 .services-card {
   margin: 0 30px;
 }

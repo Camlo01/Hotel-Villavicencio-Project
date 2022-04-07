@@ -8,6 +8,7 @@
   --blue-king: #175bc1;
   --dark-blue-king: #164c9e;
   --extreme-dark-blue-king: #133b72;
+  --blue-hover: #0d274e;
   --just-white: #fff;
   --gray-separator: #bbb;
   --elegant-gray: #808080;
@@ -98,7 +99,7 @@ header {
     background-color: var(--blue-king);
   }
   .header-navbar li a:hover {
-    color: #0d274e;
+    color: var(--blue-hover);
   }
 }
 .button-responsive-menu:hover {
@@ -113,25 +114,26 @@ header {
 }
 
 /* ---------------------------------------------------------------
------------------------ TEXTO Y BOTON ----------------------------
---------------------------------------------------------------- */
+  -------------------TEXTO Y BOTON del HEADER ----------------------
+  --------------------------------------------------------------- */
 
 @media (max-width: 500px) {
   header .header-title {
     height: 430px;
     background-image: url(../Assets/images/phone/header-bk-1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    align-items: center;
   }
 }
-
 @media (min-height: 740px) {
   header .header-title {
     height: 545px;
   }
+}
+header .header-title {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  align-items: center;
 }
 
 .header-title .header-title--capa {
@@ -157,8 +159,8 @@ header {
   font-weight: 600;
   font-size: 2rem;
   line-height: 2.3rem;
-  width: 300px;
   color: var(--text-header);
+  width: 300px;
   position: relative;
   bottom: 160px;
   left: calc(50% - 145px);
@@ -169,8 +171,8 @@ header {
     font-weight: 700;
     font-size: 3.8rem;
     line-height: 3rem;
-    width: 48px;
     color: var(--text-header);
+    width: 48px;
     position: relative;
     bottom: 160px;
     left: calc(50% - 190px);
@@ -189,25 +191,21 @@ header {
 
 header .header--button {
   display: inline-block;
+  position: absolute;
   text-decoration: none;
   font-weight: 700;
   font-size: 2rem;
-
   text-align: center;
-  position: absolute;
-
-  -webkit-box-shadow: -1px 2px 12px 2px rgba(0, 0, 0, 0.64);
-  box-shadow: -1px 2px 12px 2px rgba(0, 0, 0, 0.64);
-
+  color: var(--just-white);
   width: 184px;
   height: 48px;
-  /* background: linear-gradient(0deg,rgba(5, 5, 5, 0.85) 0%, rgba(255, 1, 1, 0.85) 100%); */
+  -webkit-box-shadow: -1px 2px 12px 2px rgba(0, 0, 0, 0.64);
+  box-shadow: -1px 2px 12px 2px rgba(0, 0, 0, 0.64);
   background: var(--blue-king);
   margin: -25px calc(50% - 90px);
   margin-bottom: 15px;
   border-radius: 25px;
   padding-top: 12px;
-  color: var(--just-white);
 }
 .header--button:hover {
   background-color: var(--extreme-dark-blue-king);
@@ -229,9 +227,11 @@ main {
   color: var(--gray-separator);
   border-radius: 1;
 }
-/* ---------------------------------------------------------------
------------------------- SERVICES --------------------------------
+
+/*----------------------------------------------------------------
+--------------------- section SERVICES ---------------------------
 --------------------------------------------------------------- */
+
 .main-section-services h2 {
   font-size: 2.6rem;
   font-weight: bold;
