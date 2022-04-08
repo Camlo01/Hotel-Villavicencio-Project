@@ -5,21 +5,22 @@
 }
 
 :root {
-  --blue-king: #175bc1;
-  --dark-blue-king: #164c9e;
+  --blue-king: #12499a;
+  --dark-blue-king: #113a78;
   --extreme-dark-blue-king: #133b72;
   --blue-hover: #0d274e;
   --just-white: #fff;
   --gray-separator: #bbb;
   --elegant-gray: #808080;
   --shadow-elegant-gray: #606060;
+  --naranja-br: #f28705;
 }
 
 html {
   font-size: 62.5%;
   font-family: "Inter";
   font-style: normal;
-  height: 1300px;
+  height: 3000px;
 }
 
 /* ---------------------------------------------------------------
@@ -30,6 +31,7 @@ header {
   position: relative;
   font-family: "Inter", sans-serif;
   color: var(--just-white);
+  box-shadow: 3px;
 }
 
 .header-nav {
@@ -47,6 +49,8 @@ header {
   font-size: 2.2rem;
   position: fixed;
   z-index: 1;
+  -webkit-box-shadow: 1px -7px 19px 9px rgba(0, 0, 0, 0.34);
+  box-shadow: 1px -7px 19px 9px rgba(0, 0, 0, 0.34);
 }
 
 .Hotelcom {
@@ -225,7 +229,7 @@ main {
   margin-top: 50px;
   background-color: var(--elegant-gray);
   color: var(--gray-separator);
-  border-radius: 1;
+  border-radius: 1px;
 }
 
 /*----------------------------------------------------------------
@@ -296,3 +300,90 @@ main {
   top: 4px;
   color: var(--shadow-elegant-gray);
 }
+
+/*----------------------------------------------------------------
+--------------------- section PHOTOS -----------------------------
+--------------------------------------------------------------- */
+
+main .main-section-photos-dinamic {
+  background-color: rgb(216, 216, 216);
+  height: 600px;
+}
+
+/*----------------------------------------------------------------
+--------------------- section EVENTS -----------------------------
+--------------------------------------------------------------- */
+
+main .main-section-events {
+  background-color: var(--blue-king);
+  color: var(--just-white);
+  display: flex;
+  flex-direction: column;
+}
+
+.main-section-events .event-container {
+  margin: 15px auto 50px;
+  align-self: center;
+  position: relative;
+}
+.main-section-events .first-container {
+  /* primer contenedor con la foto de boda  */
+}
+.event-container picture img {
+  margin-top: -24px;
+}
+
+.event-container .event-body {
+  width: 200px;
+  position: relative;
+  left: calc(8%);
+}
+
+.event-body h2 {
+  font-size: 2.2rem;
+}
+
+.event-body hr {
+  width: 80%;
+  height: 5px;
+  border-radius: 4px;
+  margin: 10px auto 10px -5px;
+  background-color: var(--naranja-br);
+}
+
+.event-body p {
+  font-size: 1.4rem;
+}
+/* 
+main .main-section-events {
+  background-color: var(--blue-king);
+  color: var(--just-white);
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-section-events .event-container {
+  margin-bottom: 15px auto;
+  align-self: center;
+}
+.event-container .event-body {
+  width: 160px;
+  margin: 5px 5% 1px;
+}
+
+.main-section-events .vent-container-img {
+  width: 100%;
+  height: auto;
+  background-image: url(//Assets/images/phone/Foto-boda.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.event-container hr {
+  color: var(--naranja-br);
+  background-color: var(--naranja-br);
+  height: 2px;
+  border-radius: 5px;
+} */
