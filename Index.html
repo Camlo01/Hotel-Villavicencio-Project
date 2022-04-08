@@ -27,9 +27,9 @@
                     alt="icono-menú"></label>
             <nav class="header-navbar" id="menu">
                 <ul>
-                    <li class="main-nav-item"> <a href="#servicios-section">Servicios</a></li>
-                    <li class="main-nav-item"> <a href="">Fotos</a></li>
-                    <li class="main-nav-item"> <a href="">Eventos</a></li>
+                    <li class="main-nav-item"> <a href="#menu-services">Servicios</a></li>
+                    <li class="main-nav-item"> <a href="#menu-fotos">Fotos</a></li>
+                    <li class="main-nav-item"> <a href="#menu-events">Eventos</a></li>
                     <li class="main-nav-item"> <a href="">Contacto</a></li>
                 </ul>
             </nav>
@@ -46,7 +46,7 @@
     </header>
     <!-- CONTENIDO DEL SITIO WEB -->
     <main>
-        <section class="main-section-services" id="servicios-section">
+        <section id="menu-services" class="main-section-services">
             <hr class="section-separator">
             <h2>Servicios</h2>
             <!-- Contenedor con scroll de tarjetas -->
@@ -84,34 +84,57 @@
             <hr class="section-separator section-services-separator-down">
         </section>
         <!-- Fin seccion services -->
-        <section class="main-section-photos-dinamic">
+        <section id="menu-fotos" class="main-section-photos-dinamic">
 
         </section>
 
-        <section class="main-section-events">
-            <article class="event-container">
-                <img src="" alt="foto de boda">
-                <h2>Eventos</h2>
-                <hr>
-                <p>En nuestro salón de eventos tendrás la oportunidad para compartir con tus seres queridos, ceremonias
-                    especiales como las sueñas</p>
-            </article>
-            <article class="event-container">
-                <img src="" alt="salon seminario">
-                <h2>Seminarios</h2>
-                <hr>
-                <p>Cumple tus objetivos de llegar a tu audiencia deseada y transmitirle tus conociminetos de la mejor
-                    manera posible</p>
-            </article>
-            <article class="event-container">
-                <img src="" alt="">
-                <h2>Reuniones de gala</h2>
-                <hr>
-                <p>Juntamos todo a nuestra alcanse para ponerlo a tu disposición con el objetivo de hacer tus eventos
-                    memorables</p>
+        <hr class="section-separator section-services-separator-down">
+        <section id="menu-events" class="main-section-events">
+
+            <article class="event-container first-container">
+                <picture>
+                    <img src="Assets/images/phone/boda.png" alt="Boda">
+                </picture>
+                <div class="event-body">
+                    <h2>Eventos</h2>
+                    <hr>
+                    <p>En nuestro salón de eventos tendrás la oportunidad para compartir con tus seres queridos,
+                        ceremonias
+                        especiales como las sueñas</p>
+                </div>
+
             </article>
 
+            <article class="event-container">
+                <picture>
+                    <img src="Assets/images/phone/Seminarios.png" alt="salon de seminario">
+                </picture>
+                <div class="event-body">
+                    <h2>Seminarios</h2>
+                    <hr>
+                    <p>Cumple tus objetivos de llegar a tu audiencia deseada y transmitirle tus conociminetos de la
+                        mejor
+                        manera posible</p>
+                </div>
+            </article>
+
+            <article class="event-container">
+                <picture>
+                    <img src="Assets/images/phone/reuniones-gala.png" alt="salon de lujo">
+                </picture>
+                <div class="event-body">
+                    <h2>Reuniones de gala</h2>
+                    <hr>
+                    <p>Juntamos todo a nuestra alcanse para ponerlo a tu disposición con el objetivo de hacer tus
+                        eventos
+                        memorables</p>
+                </div>
+            </article>
+
+
+
         </section>
+
 
     </main>
 
