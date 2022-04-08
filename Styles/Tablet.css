@@ -1,12 +1,13 @@
 :root {
-  --blue-king: #175bc1;
-  --dark-blue-king: #164c9e;
+  --blue-king: #12499a;
+  --dark-blue-king: #113a78;
   --extreme-dark-blue-king: #133b72;
   --blue-hover: #0d274e;
   --just-white: #fff;
   --gray-separator: #bbb;
   --elegant-gray: #808080;
   --shadow-elegant-gray: #606060;
+  --naranja-br: #f28705;
 }
 
 @media (max-width: 800px) {
@@ -52,7 +53,7 @@
 /* ---------------------------------------------------------------
 ------------------------ SERVICES --------------------------------
 --------------------------------------------------------------- */
-@media (max-width: 676px) {
+@media (max-width: 800px) {
   .services-cards-container {
     display: flex;
     flex-wrap: wrap;
