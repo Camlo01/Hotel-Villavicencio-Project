@@ -124,7 +124,7 @@ header {
 @media (max-width: 500px) {
   header .header-title {
     height: 430px;
-    background-image: url(../Assets/images/phone/header-bk-1.jpg);
+    background-image: url(../Assets/images/phone/header/header-phone.jpg);
   }
 }
 @media (min-height: 740px) {
@@ -326,23 +326,40 @@ main .main-section-events {
   align-self: center;
   position: relative;
 }
-.main-section-events .first-container {
-  /* primer contenedor con la foto de boda  */
+
+.event-container .picture {
+  background-color: var(--gray-separator);
+  width: 320px;
+  height: 177px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: local;
+  margin-bottom: 15px;
+  -webkit-box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.61);
+  box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.61);
 }
-.event-container picture img {
-  margin-top: -24px;
+
+.event-container .boda {
+  margin-top: -15px;
+  background-image: url(../Assets/images/phone/events/Boda-320px.jpg);
 }
+.event-container .seminarios {
+  background-image: url(../Assets/images/phone/events/Seminarios-320px.jpg);
+}
+.event-container .gala {
+  background-image: url(../Assets/images/phone/events/Gala-320px.jpg);
+}
+
+/* AÑADIR MEDIAQUERY PARA MOVIL DESDE 441PX */
 
 .event-container .event-body {
   width: 200px;
   position: relative;
   left: calc(8%);
 }
-
 .event-body h2 {
   font-size: 2.2rem;
 }
-
 .event-body hr {
   width: 80%;
   height: 5px;
@@ -350,40 +367,6 @@ main .main-section-events {
   margin: 10px auto 10px -5px;
   background-color: var(--naranja-br);
 }
-
 .event-body p {
   font-size: 1.4rem;
 }
-/* 
-main .main-section-events {
-  background-color: var(--blue-king);
-  color: var(--just-white);
-  padding-bottom: 30px;
-  display: flex;
-  flex-direction: column;
-}
-
-.main-section-events .event-container {
-  margin-bottom: 15px auto;
-  align-self: center;
-}
-.event-container .event-body {
-  width: 160px;
-  margin: 5px 5% 1px;
-}
-
-.main-section-events .vent-container-img {
-  width: 100%;
-  height: auto;
-  background-image: url(//Assets/images/phone/Foto-boda.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.event-container hr {
-  color: var(--naranja-br);
-  background-color: var(--naranja-br);
-  height: 2px;
-  border-radius: 5px;
-} */
