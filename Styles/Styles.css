@@ -5,21 +5,22 @@
 }
 
 :root {
-  --blue-king: #175bc1;
-  --dark-blue-king: #164c9e;
+  --blue-king: #12499a;
+  --dark-blue-king: #113a78;
   --extreme-dark-blue-king: #133b72;
   --blue-hover: #0d274e;
   --just-white: #fff;
   --gray-separator: #bbb;
   --elegant-gray: #808080;
   --shadow-elegant-gray: #606060;
+  --naranja-br: #f28705;
 }
 
 html {
   font-size: 62.5%;
   font-family: "Inter";
   font-style: normal;
-  height: 1300px;
+  height: 3000px;
 }
 
 /* ---------------------------------------------------------------
@@ -30,6 +31,7 @@ header {
   position: relative;
   font-family: "Inter", sans-serif;
   color: var(--just-white);
+  box-shadow: 3px;
 }
 
 .header-nav {
@@ -47,6 +49,8 @@ header {
   font-size: 2.2rem;
   position: fixed;
   z-index: 1;
+  -webkit-box-shadow: 1px -7px 19px 9px rgba(0, 0, 0, 0.34);
+  box-shadow: 1px -7px 19px 9px rgba(0, 0, 0, 0.34);
 }
 
 .Hotelcom {
@@ -120,7 +124,7 @@ header {
 @media (max-width: 500px) {
   header .header-title {
     height: 430px;
-    background-image: url(../Assets/images/phone/header-bk-1.jpg);
+    background-image: url(../Assets/images/phone/header/header-phone.jpg);
   }
 }
 @media (min-height: 740px) {
@@ -225,7 +229,7 @@ main {
   margin-top: 50px;
   background-color: var(--elegant-gray);
   color: var(--gray-separator);
-  border-radius: 1;
+  border-radius: 1px;
 }
 
 /*----------------------------------------------------------------
@@ -295,4 +299,74 @@ main {
   position: relative;
   top: 4px;
   color: var(--shadow-elegant-gray);
+}
+
+/*----------------------------------------------------------------
+--------------------- section PHOTOS -----------------------------
+--------------------------------------------------------------- */
+
+main .main-section-photos-dinamic {
+  background-color: rgb(216, 216, 216);
+  height: 600px;
+}
+
+/*----------------------------------------------------------------
+--------------------- section EVENTS -----------------------------
+--------------------------------------------------------------- */
+
+main .main-section-events {
+  background-color: var(--blue-king);
+  color: var(--just-white);
+  display: flex;
+  flex-direction: column;
+}
+
+.main-section-events .event-container {
+  margin: 15px auto 50px;
+  align-self: center;
+  position: relative;
+}
+
+.event-container .picture {
+  background-color: var(--gray-separator);
+  width: 320px;
+  height: 177px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: local;
+  margin-bottom: 15px;
+  -webkit-box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.61);
+  box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.61);
+}
+
+.event-container .boda {
+  margin-top: -15px;
+  background-image: url(../Assets/images/phone/events/Boda-320px.jpg);
+}
+.event-container .seminarios {
+  background-image: url(../Assets/images/phone/events/Seminarios-320px.jpg);
+}
+.event-container .gala {
+  background-image: url(../Assets/images/phone/events/Gala-320px.jpg);
+}
+
+/* AÑADIR MEDIAQUERY PARA MOVIL DESDE 441PX */
+
+.event-container .event-body {
+  width: 200px;
+  position: relative;
+  left: calc(8%);
+}
+.event-body h2 {
+  font-size: 2.2rem;
+}
+.event-body hr {
+  width: 80%;
+  height: 5px;
+  border-radius: 4px;
+  margin: 10px auto 10px -5px;
+  background-color: var(--naranja-br);
+}
+.event-body p {
+  font-size: 1.4rem;
 }
