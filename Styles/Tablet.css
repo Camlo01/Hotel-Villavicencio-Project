@@ -71,3 +71,37 @@
 .main-section-services h2 {
   left: calc(20%);
 }
+
+/*----------------------------------------------------------------
+--------------------- section EVENTS -----------------------------
+--------------------------------------------------------------- */
+.event-container .picture {
+  background-color: var(--gray-separator);
+  width: 500px;
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: local;
+  margin-bottom: 15px;
+  -webkit-box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.61);
+  box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.61);
+}
+
+.event-container .boda {
+  margin-top: -15px;
+  background-image: url(../Assets/images/tablet/events/Boda-tablet.jpg);
+}
+.event-container .seminarios {
+  background-image: url(../Assets/images/tablet/events/Seminarios-tablet.jpg);
+}
+.event-container .gala {
+  background-image: url(../Assets/images/tablet/events/Gala-tablet.jpg);
+}
+@media (min-width: 500px) {
+  .event-container .right-body {
+    width: 200px;
+    text-align: right;
+    position: relative;
+    left: calc(51%);
+  }
+}

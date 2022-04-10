@@ -334,7 +334,7 @@ main .main-section-events {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: local;
-  margin-bottom: 15px;
+  margin-bottom: 17px;
   -webkit-box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.61);
   box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.61);
 }
@@ -344,10 +344,30 @@ main .main-section-events {
   background-image: url(../Assets/images/phone/events/Boda-320px.jpg);
 }
 .event-container .seminarios {
+  height: 213px;
   background-image: url(../Assets/images/phone/events/Seminarios-320px.jpg);
 }
 .event-container .gala {
+  height: 185px;
   background-image: url(../Assets/images/phone/events/Gala-320px.jpg);
+}
+
+@media (min-width: 413px) {
+  .event-container .picture {
+    width: 414px;
+    height: 230px;
+  }
+
+  .event-container .boda {
+    margin-top: -15px;
+    background-image: url(../Assets/images/phone/events/Boda-441px.jpg);
+  }
+  .event-container .seminarios {
+    background-image: url(../Assets/images/phone/events/Seminarios-441px.jpg);
+  }
+  .event-container .gala {
+    background-image: url(../Assets/images/phone/events/Gala-441px.jpg);
+  }
 }
 
 /* AÑADIR MEDIAQUERY PARA MOVIL DESDE 441PX */
@@ -355,18 +375,46 @@ main .main-section-events {
 .event-container .event-body {
   width: 200px;
   position: relative;
+}
+
+.event-container .left-body {
   left: calc(8%);
 }
+.event-container .right-body {
+  right: calc(-28%);
+  text-align: right;
+}
+
+@media (min-width: 413px) {
+  .event-container .right-body {
+    left: calc(45%);
+    text-align: right;
+  }
+}
+
 .event-body h2 {
   font-size: 2.2rem;
 }
 .event-body hr {
-  width: 80%;
   height: 5px;
   border-radius: 4px;
   margin: 10px auto 10px -5px;
   background-color: var(--naranja-br);
 }
+.event-body .first-body-hr {
+  width: 55%;
+}
+
+.event-body .second-body-hr {
+  width: 82%;
+  margin: 10px -5px 10px auto;
+  background-color: var(--naranja-br);
+}
+
+.event-body .third-body-hr {
+  width: 90%;
+}
+
 .event-body p {
   font-size: 1.4rem;
 }
