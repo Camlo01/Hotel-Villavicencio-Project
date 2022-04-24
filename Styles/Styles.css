@@ -34,9 +34,6 @@ header {
   box-shadow: 3px;
 }
 
- 
-
-
 .header-nav {
   font-family: "Inter";
   font-style: normal;
@@ -61,6 +58,11 @@ header {
   display: inline-block;
   margin-left: 10px;
 }
+.Hotelcom a{
+  color: var(--just-white);
+  text-decoration: none;
+}
+
 .button-responsive-menu {
   position: relative;
   border: 2px solid var(--just-white);
