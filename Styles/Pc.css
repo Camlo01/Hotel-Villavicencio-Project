@@ -111,6 +111,11 @@
 --------------------- section SERVICES ---------------------------
 --------------------------------------------------------------- */
 
+  .main-section-services {
+    position: relative;
+    top: 30px;
+  }
+
   .services-cards-container {
     padding: 15px;
     display: flex;
@@ -120,6 +125,7 @@
     scroll-snap-type: x proximity;
   }
 }
+
 @media (min-width: 1280px) {
   .services-cards-container {
     justify-content: center;
@@ -135,3 +141,4 @@
 .services-card {
   margin: 0 30px;
 }
+
