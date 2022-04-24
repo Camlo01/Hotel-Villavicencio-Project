@@ -26,21 +26,25 @@
     <header>
         <!-- barra superior azul -->
         <div class="header-nav">
-            <p class="Hotelcom">Hotel.com</p>
+            <p class="Hotelcom">
+                <a href="#menu-inicio">Hotel.com</a>
+                <!-- Hotel.com -->
+            </p>
             <input type="checkbox" id="check-navbar">
             <label for="check-navbar" class="button-responsive-menu"><img src="Assets/Icons/bars-solid-normal.svg"
                     alt="icono-menú"></label>
             <nav class="header-navbar" id="menu">
                 <ul>
+                    <li class="main-nav-item"> <a href="#menu-inicio">Inicio</a></li>
                     <li class="main-nav-item"> <a href="#menu-services">Servicios</a></li>
                     <li class="main-nav-item"> <a href="#menu-fotos">Fotos</a></li>
                     <li class="main-nav-item"> <a href="#menu-events">Eventos</a></li>
-                    <li class="main-nav-item"> <a href="">Contacto</a></li>
+                    <li class="main-nav-item"> <a href="#menu-contacts">Contacto</a></li>
                 </ul>
             </nav>
         </div>
         <!-- header con foto y título -->
-        <div class="header-title">
+        <div class="header-title" id="menu-inicio">
             <div class="header-title--capa"></div>
             <h1>Hotel Villavicencio</h1>
             <p>Completa renovación Completamente comodidad</p>
