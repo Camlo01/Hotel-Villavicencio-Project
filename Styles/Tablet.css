@@ -44,6 +44,12 @@
   /* ---------------------------------------------------------------
 ----------------------- TEXTO Y BOTON ----------------------------
 --------------------------------------------------------------- */
+  .header--title__body {
+    position: relative;
+    right: 10%;
+    animation-name: slide-title;
+    animation-duration: 1s;
+  }
   header .header-title {
     min-height: 580px;
     background-image: url(../Assets/images/tablet/header/header-tablet.jpg);
