@@ -83,30 +83,26 @@
     /* left: calc(50% - 420px); */
   }
 
-  @media (max-width: 1000px) {
+  /* @media (max-width: 1000px) {
     .header-title h1 {
       left: calc(50% - 370px);
     }
     .header-title p {
       left: calc(50% - 370px);
     }
-  }
+  } */
   /* ---------------------------------------------------------------
 --------------------------- MAIN ---------------------------------
 --------------------------------------------------------------- */
 
-  .header--title__body {
-    right: 40%;
-    animation-name: slide-title;
-    animation-duration: 1s;
-  }
-
-  @keyframes slide-title {
-    from {
-      margin-right: 100%;
+  @media (min-width: 885px) {
+    .header--title__body {
+      position: relative;
+      right: 18%;
+      animation-name: slide-title;
+      animation-duration: 1s;
     }
   }
-
   header .header--button {
     font-size: 3rem;
     position: absolute;
