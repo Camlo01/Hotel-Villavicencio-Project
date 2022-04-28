@@ -189,6 +189,24 @@ header .header-title {
 }
 
 @media (min-width: 500px) {
+
+  .header--title__body {
+    animation-name: slide-title;
+    animation-duration: 1s;
+  }
+  
+  @keyframes slide-title {
+    from {
+      margin-right: 100%;
+    }
+    to{
+      margin-right: 0;
+    }
+  }
+  
+  .header--title__body {
+    margin: 0 auto;
+  }
   .header-title h1 {
     font-weight: 700;
     font-size: 3.8rem;
@@ -197,7 +215,7 @@ header .header-title {
     width: 48px;
     position: relative;
     bottom: 160px;
-    left: calc(50% - 190px);
+    /* left: calc(50% - 75px); */
   }
   .header-title p {
     font-weight: 600;
@@ -207,7 +225,8 @@ header .header-title {
     color: var(--text-header);
     position: relative;
     bottom: 160px;
-    left: calc(50% - 190px);
+
+    /* left: calc(50% - 75px); */
   }
 }
 
