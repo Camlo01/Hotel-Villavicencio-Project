@@ -73,14 +73,14 @@
     font-size: 5rem;
     line-height: 4rem;
     bottom: 160px;
-    left: calc(50% - 450px);
+    /* left: calc(50% - 420px); */
   }
   .header-title p {
     font-size: 3.2rem;
-    line-height: 2.6rem;
+    line-height: 2.8rem;
     width: 500px;
     bottom: 160px;
-    left: calc(50% - 450px);
+    /* left: calc(50% - 420px); */
   }
 
   @media (max-width: 1000px) {
@@ -95,12 +95,24 @@
 --------------------------- MAIN ---------------------------------
 --------------------------------------------------------------- */
 
+  .header--title__body {
+    right: 40%;
+    animation-name: slide-title;
+    animation-duration: 1s;
+  }
+
+  @keyframes slide-title {
+    from {
+      margin-right: 100%;
+    }
+  }
+
   header .header--button {
     font-size: 3rem;
     position: absolute;
     width: 220px;
     height: 55px;
-    margin: -300px calc(75% - 140px);
+    margin: -300px calc(58%);
     margin-bottom: 15px;
     -webkit-box-shadow: -1px 2px 20px 4px rgba(0, 0, 0, 0.98);
     box-shadow: -1px 2px 20px 4px rgba(0, 0, 0, 0.98);
@@ -141,4 +153,3 @@
 .services-card {
   margin: 0 30px;
 }
-

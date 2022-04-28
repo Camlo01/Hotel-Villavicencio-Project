@@ -10,7 +10,7 @@
   --naranja-br: #f28705;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 884px) {
   .header-navbar {
     display: none;
     position: fixed;
@@ -53,7 +53,7 @@
 /* ---------------------------------------------------------------
 ------------------------ SERVICES --------------------------------
 --------------------------------------------------------------- */
-@media (max-width: 800px) {
+@media (max-width: 884px) {
   .services-cards-container {
     display: flex;
     flex-wrap: wrap;

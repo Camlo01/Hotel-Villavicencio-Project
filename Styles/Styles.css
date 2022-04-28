@@ -58,7 +58,7 @@ header {
   display: inline-block;
   margin-left: 10px;
 }
-.Hotelcom a{
+.Hotelcom a {
   color: var(--just-white);
   text-decoration: none;
 }
@@ -72,7 +72,6 @@ header {
   padding: 6px;
   margin-top: 9px;
   margin-right: 30px;
-
   float: right;
 }
 
@@ -154,6 +153,17 @@ header .header-title {
     rgba(0, 0, 0, 0.8) 100%
   );
 }
+.header--title__body {
+  animation-name: slide-title;
+  animation-duration: 1s;
+}
+
+@keyframes slide-title {
+  from {
+    margin-right: 100%;
+  }
+}
+
 .header-title h1 {
   font-weight: 700;
   font-size: 3rem;
@@ -162,16 +172,19 @@ header .header-title {
   color: var(--text-header);
   position: relative;
   bottom: 160px;
+  /* right: 40%; */
   left: calc(50% - 145px);
 }
 .header-title p {
   font-weight: 600;
   font-size: 2rem;
-  line-height: 2.3rem;
+  line-height: 2.5rem;
   color: var(--text-header);
   width: 300px;
   position: relative;
   bottom: 160px;
+  /* right: 40%; */
+
   left: calc(50% - 145px);
 }
 
@@ -215,7 +228,20 @@ header .header--button {
   margin-bottom: 15px;
   border-radius: 25px;
   padding-top: 12px;
+
+  animation-duration: 1s;
+  animation-name: slide-button;
 }
+
+@keyframes slide-button {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0%;
+  }
+}
+
 .header--button:hover {
   background-color: var(--extreme-dark-blue-king);
   color: var(--just-white);
@@ -251,6 +277,16 @@ main {
   margin-bottom: 25px;
 }
 
+.services-cards-container {
+  animation-duration: 1s;
+  animation-name: slide-card;
+}
+@keyframes slide-card {
+  from {
+    margin-left: 100%;
+    padding-left: 1000px;
+  }
+}
 .services-card {
   width: 260px;
   height: 232px;
