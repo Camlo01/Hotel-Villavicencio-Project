@@ -30,7 +30,7 @@ Este sitio web todavía está en una etapa temprana, consulta más adelante
 
 ---
 
-## Links 
+## Links 🖱
 
 Link: https://camlo01.github.io/Hotel-Villavicencio-Project/#menu-inicio
 
