@@ -16,17 +16,13 @@ Proyecto de sitio web sobre Hotel Villavicencio creado con el fin de practicar t
 ## Puntos destacables ⚡
 
 - Website responsive 🖥 📱
-
 - Se aplica metodologia BEM
-
 - se Incluyen animaciones (CSS y JS) 🎞
-
 - Se hace envío de formulario
-
 
 ## Próximo a implementar 🚧🔧🔨
 
-Este sitio web todavía está en una etapa temprana, consulta más adelante
+Este sitio web todavía está en una etapa temprana, consulta más adelante 🏗.
 
 ---
 
