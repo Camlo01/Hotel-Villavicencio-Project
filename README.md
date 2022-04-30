@@ -1,6 +1,6 @@
 # Actualmente en proceso...
 
-# Hotel-Villavicencio-Project 🛎🛌
+# Proyecto Hotel Villaviencio 🛎🛌
 
 Proyecto de sitio web sobre Hotel Villavicencio creado con el fin de practicar todos mis conocimientos de frontend siguiendo diseño realizado en Figma
 
