@@ -4,7 +4,6 @@
 
 Proyecto de sitio web sobre Hotel Villavicencio creado con el fin de practicar todos mis conocimientos de frontend siguiendo diseño realizado en Figma
 
----
 
 ## Contenido 📖
 
@@ -13,7 +12,6 @@ Proyecto de sitio web sobre Hotel Villavicencio creado con el fin de practicar t
 - Scroll de fotos
 - formulario de contacto
 
----
 
 ## Puntos destacables ⚡
 
@@ -25,7 +23,14 @@ Proyecto de sitio web sobre Hotel Villavicencio creado con el fin de practicar t
 
 - Se hace envío de formulario
 
+
+## Próximo a implementar 🚧🔧🔨
+
+Este sitio web todavía está en una etapa temprana, consulta más adelante
+
 ---
+
+## Links 
 
 Link: https://camlo01.github.io/Hotel-Villavicencio-Project/#menu-inicio
 
