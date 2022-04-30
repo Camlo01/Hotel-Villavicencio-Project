@@ -22,7 +22,7 @@ Proyecto de sitio web sobre Hotel Villavicencio creado con el fin de practicar t
 
 ## Próximo a implementar 🚧🔧🔨
 
-Este sitio web todavía está en una etapa temprana, consulta más adelante 🏗.
+Este sitio web todavía está en una etapa muy temprana, consulta más adelante 🏗.
 
 ---
 
