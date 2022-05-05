@@ -28,6 +28,6 @@ Este sitio web todavía está en una etapa muy temprana, consulta más adelante 
 
 ## Links 🖱
 
-Link: https://camlo01.github.io/Hotel-Villavicencio-Project/#menu-inicio
+Link: https://camlo01.github.io/Hotel-Villavicencio-Project/
 
 Mi Linkedin: https://www.linkedin.com/in/camilo-beltran-c/
