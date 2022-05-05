@@ -149,3 +149,35 @@
 .services-card {
   margin: 0 30px;
 }
+
+/*----------------------------------------------------------------
+--------------------- section EVENTOS ------------------------------
+--------------------------------------------------------------- */
+
+.event-container {
+  display: flex;
+}
+
+.event-container .event-body {
+  width: 250px;
+  position: relative;
+  top: 40px;
+  left: 30px;
+}
+
+.event-body h2 {
+  font-size: 4rem;
+}
+.event-body p {
+  font-size: 2rem;
+}
+
+.event-container .seminarios {
+  position: relative;
+  left: 260px;
+}
+
+.event-container .right-body {
+  position: relative;
+  left: -520px;
+}
