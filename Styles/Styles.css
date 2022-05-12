@@ -20,6 +20,7 @@ html {
   font-size: 62.5%;
   font-family: "Inter";
   font-style: normal;
+  scroll-behavior: smooth;
   height: 3000px;
 }
 
@@ -58,6 +59,7 @@ header {
   display: inline-block;
   margin-left: 10px;
 }
+
 .Hotelcom a {
   color: var(--just-white);
   text-decoration: none;
@@ -84,6 +86,7 @@ header {
     display: none;
     position: fixed;
   }
+
   .header-navbar ul {
     background-color: var(--dark-blue-king);
     width: 100%;
@@ -106,17 +109,20 @@ header {
   .header-navbar li:hover {
     background-color: var(--blue-king);
   }
+
   .header-navbar li a:hover {
     color: var(--blue-hover);
   }
 }
+
 .button-responsive-menu:hover {
   background-color: var(--dark-blue-king);
   border: 2px solid var(--extreme-dark-blue-king);
 }
+
 /* ACÁ IBA EL CODIGO DEL HEADER  */
 
-#check-navbar:checked ~ .header-navbar {
+#check-navbar:checked~.header-navbar {
   display: block;
   width: 100%;
 }
@@ -131,11 +137,13 @@ header {
     background-image: url(../Assets/images/phone/header/header-phone.jpg);
   }
 }
+
 @media (min-height: 740px) {
   header .header-title {
     height: 545px;
   }
 }
+
 header .header-title {
   background-repeat: no-repeat;
   background-size: cover;
@@ -147,12 +155,11 @@ header .header-title {
 .header-title .header-title--capa {
   width: 100%;
   height: 300px;
-  background: linear-gradient(
-    0deg,
-    rgba(67, 162, 207, 0) 0%,
-    rgba(0, 0, 0, 0.8) 100%
-  );
+  background: linear-gradient(0deg,
+      rgba(67, 162, 207, 0) 0%,
+      rgba(0, 0, 0, 0.8) 100%);
 }
+
 .header--title__body {
   animation-name: slide-title;
   animation-duration: 1s;
@@ -175,6 +182,7 @@ header .header-title {
   /* right: 40%; */
   left: calc(50% - 145px);
 }
+
 .header-title p {
   font-weight: 600;
   font-size: 2rem;
@@ -194,19 +202,21 @@ header .header-title {
     animation-name: slide-title;
     animation-duration: 1s;
   }
-  
+
   @keyframes slide-title {
     from {
       margin-right: 100%;
     }
-    to{
+
+    to {
       margin-right: 0;
     }
   }
-  
+
   .header--title__body {
     margin: 0 auto;
   }
+
   .header-title h1 {
     font-weight: 700;
     font-size: 3.8rem;
@@ -217,6 +227,7 @@ header .header-title {
     bottom: 160px;
     /* left: calc(50% - 75px); */
   }
+
   .header-title p {
     font-weight: 600;
     font-size: 2.8rem;
@@ -256,6 +267,7 @@ header .header--button {
   from {
     left: 50%;
   }
+
   to {
     left: 0%;
   }
@@ -273,6 +285,7 @@ header .header--button {
 main {
   height: auto;
 }
+
 .section-separator {
   width: 75%;
   margin: 30px auto;
@@ -300,12 +313,14 @@ main {
   animation-duration: 1s;
   animation-name: slide-card;
 }
+
 @keyframes slide-card {
   from {
     margin-left: 100%;
     padding-left: 1000px;
   }
 }
+
 .services-card {
   width: 260px;
   height: 232px;
@@ -335,6 +350,7 @@ main {
   margin-left: 5px;
   bottom: 12px;
 }
+
 .bed {
   background-image: url(/Assets/Icons/PNG/Cama.png);
 }
@@ -403,10 +419,12 @@ main .main-section-events {
   margin-top: -15px;
   background-image: url(../Assets/images/phone/events/Boda-320px.jpg);
 }
+
 .event-container .seminarios {
   height: 213px;
   background-image: url(../Assets/images/phone/events/Seminarios-320px.jpg);
 }
+
 .event-container .gala {
   height: 185px;
   background-image: url(../Assets/images/phone/events/Gala-320px.jpg);
@@ -422,9 +440,11 @@ main .main-section-events {
     margin-top: -15px;
     background-image: url(../Assets/images/phone/events/Boda-441px.jpg);
   }
+
   .event-container .seminarios {
     background-image: url(../Assets/images/phone/events/Seminarios-441px.jpg);
   }
+
   .event-container .gala {
     background-image: url(../Assets/images/phone/events/Gala-441px.jpg);
   }
@@ -440,6 +460,7 @@ main .main-section-events {
 .event-container .left-body {
   left: calc(8%);
 }
+
 .event-container .right-body {
   right: calc(-28%);
   text-align: right;
@@ -455,12 +476,14 @@ main .main-section-events {
 .event-body h2 {
   font-size: 2.2rem;
 }
+
 .event-body hr {
   height: 5px;
   border-radius: 4px;
   margin: 10px auto 10px -5px;
   background-color: var(--naranja-br);
 }
+
 .event-body .first-body-hr {
   width: 55%;
 }
