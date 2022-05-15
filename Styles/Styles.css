@@ -21,7 +21,6 @@ html {
   font-family: "Inter";
   font-style: normal;
   scroll-behavior: smooth;
-  height: 3000px;
 }
 
 /* ---------------------------------------------------------------
@@ -180,7 +179,7 @@ header .header-title {
   position: relative;
   bottom: 160px;
   /* right: 40%; */
-  left: calc(50% - 145px);
+  left: calc(30% - 145px);
 }
 
 .header-title p {
@@ -193,7 +192,7 @@ header .header-title {
   bottom: 160px;
   /* right: 40%; */
 
-  left: calc(50% - 145px);
+  left: calc(30% - 145px);
 }
 
 @media (min-width: 500px) {
@@ -298,6 +297,7 @@ main {
 /*----------------------------------------------------------------
 --------------------- section SERVICES ---------------------------
 --------------------------------------------------------------- */
+.main-section-services {}
 
 .main-section-services h2 {
   font-size: 2.6rem;
@@ -413,7 +413,19 @@ main .main-section-events {
   margin-bottom: 17px;
   -webkit-box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.61);
   box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.61);
+  animation: events-pictures-show 1.4s;
 }
+
+@keyframes events-pictures-show {
+  0% {
+    width: 0px;
+  }
+
+  40% {
+    width: 130px;
+  }
+}
+
 
 .event-container .boda {
   margin-top: -15px;
@@ -466,12 +478,12 @@ main .main-section-events {
   text-align: right;
 }
 
-@media (min-width: 413px) {
+/* @media (min-width: 413px) {
   .event-container .right-body {
     left: calc(45%);
     text-align: right;
   }
-}
+} */
 
 .event-body h2 {
   font-size: 2.2rem;
