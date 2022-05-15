@@ -15,6 +15,7 @@
     display: none;
     position: fixed;
   }
+
   .header-navbar ul {
     background-color: var(--dark-blue-king);
     width: 100%;
@@ -37,6 +38,7 @@
   .header-navbar li:hover {
     background-color: var(--blue-king);
   }
+
   .header-navbar li a:hover {
     color: var(--blue-hover);
   }
@@ -50,6 +52,7 @@
     animation-name: slide-title;
     animation-duration: 1s;
   }
+
   header .header-title {
     min-height: 580px;
     background-image: url(../Assets/images/tablet/header/header-tablet.jpg);
@@ -64,14 +67,24 @@
     display: flex;
     flex-wrap: wrap;
     padding: 0 30px;
-  }
-  .services-cards-container {
     display: flex;
     height: 316px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
+    overflow-x:hidden
   }
+
+  .services-cards-container::-webkit-scrollbar{
+    width: 7px;
+    background-color: rgba(136, 205, 255, 0.766);
+  }
+  .services-cards-container::-webkit-scrollbar-thumb{
+    background-color: var(--blue-king);
+    border-radius: 5px;
+
+  }
+
 }
 
 .main-section-services h2 {
@@ -97,12 +110,15 @@
   margin-top: -15px;
   background-image: url(../Assets/images/tablet/events/Boda-tablet.jpg);
 }
+
 .event-container .seminarios {
   background-image: url(../Assets/images/tablet/events/Seminarios-tablet.jpg);
 }
+
 .event-container .gala {
   background-image: url(../Assets/images/tablet/events/Gala-tablet.jpg);
 }
+
 @media (min-width: 500px) {
   .event-container .right-body {
     width: 200px;
