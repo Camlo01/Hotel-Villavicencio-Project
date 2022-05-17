@@ -351,19 +351,19 @@ main {
 }
 
 .bed {
-  background-image: url(/Assets/Icons/PNG/Cama.png);
+  background-image: url(../Assets/Icons/PNG/Cama.png);
 }
 
 .menu {
-  background-image: url(/Assets/Icons/PNG/Tapa.png);
+  background-image: url(../Assets/Icons/PNG/Tapa.png);
 }
 
 .park {
-  background-image: url(/Assets/Icons/PNG/Rodadero.png);
+  background-image: url(../Assets/Icons/PNG/Rodadero.png);
 }
 
 .key {
-  background-image: url(/Assets/Icons/PNG/Llave.png);
+  background-image: url(../Assets/Icons/PNG/Llave.png);
 }
 
 .services-card .services--card-body {
