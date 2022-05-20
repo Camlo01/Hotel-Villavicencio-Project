@@ -55,7 +55,7 @@
 
   header .header-title {
     min-height: 580px;
-    background-image: url(../Assets/images/tablet/header/header-tablet.jpg);
+    background-image: url(../Assets/images/tablet/header-bead.webp);
   }
 }
 
@@ -108,15 +108,15 @@
 
 .event-container .boda {
   margin-top: -15px;
-  background-image: url(../Assets/images/tablet/events/Boda-tablet.jpg);
+  background-image: url(../Assets/images/tablet/events-boda.webp);
 }
 
 .event-container .seminarios {
-  background-image: url(../Assets/images/tablet/events/Seminarios-tablet.jpg);
+  background-image: url(../Assets/images/tablet/events-seminarios.webp);
 }
 
 .event-container .gala {
-  background-image: url(../Assets/images/tablet/events/Gala-tablet.jpg);
+  background-image: url(../Assets/images/tablet/events-gala.webp);
 }
 
 @media (min-width: 500px) {

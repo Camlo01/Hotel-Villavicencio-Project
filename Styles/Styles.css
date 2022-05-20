@@ -133,7 +133,7 @@ header {
 @media (max-width: 500px) {
   header .header-title {
     height: 430px;
-    background-image: url(../Assets/images/phone/header/header-phone.jpg);
+    background-image: url(../Assets/images/phone/header-bead.webp);
   }
 }
 
@@ -428,17 +428,17 @@ main .main-section-events {
 
 .event-container .boda {
   margin-top: -15px;
-  background-image: url(../Assets/images/phone/events/Boda-320px.jpg);
+  background-image: url(../Assets/images/phone/events-boda-320px.webp);
 }
 
 .event-container .seminarios {
   height: 213px;
-  background-image: url(../Assets/images/phone/events/Seminarios-320px.jpg);
+  background-image: url(../Assets/images/phone/events-seminarios-320px.webp);
 }
 
 .event-container .gala {
   height: 185px;
-  background-image: url(../Assets/images/phone/events/Gala-320px.jpg);
+  background-image: url(../Assets/images/phone/events-gala-320px.webp);
 }
 
 @media (min-width: 413px) {
@@ -449,15 +449,15 @@ main .main-section-events {
 
   .event-container .boda {
     margin-top: -15px;
-    background-image: url(../Assets/images/phone/events/Boda-441px.jpg);
+    background-image: url(../Assets/images/phone/events-Boda-441px.webp);
   }
 
   .event-container .seminarios {
-    background-image: url(../Assets/images/phone/events/Seminarios-441px.jpg);
+    background-image: url(../Assets/images/phone/events-seminarios-441px.webp);
   }
 
   .event-container .gala {
-    background-image: url(../Assets/images/phone/events/Gala-441px.jpg);
+    background-image: url(../Assets/images/phone/events-gala-441px.webp);
   }
 }
 
@@ -478,7 +478,7 @@ main .main-section-events {
 }
 
 /* @media (min-width: 413px) {
-  .event-container .right-body {
+  .event-container .right-body {webp
     left: calc(45%);
     text-align: right;
   }
