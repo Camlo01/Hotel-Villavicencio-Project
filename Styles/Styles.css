@@ -517,3 +517,21 @@ main .main-section-events {
 .event-body p {
   font-size: 1.4rem;
 }
+
+.main-section-logo {
+  background-color: #e7e7e7;
+
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-logo-img {
+}
+
+
+
+
+
+.menu-contact {}
