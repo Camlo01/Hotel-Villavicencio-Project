@@ -72,14 +72,15 @@
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
-    overflow-x:hidden
+    overflow-x: hidden
   }
 
-  .services-cards-container::-webkit-scrollbar{
+  .services-cards-container::-webkit-scrollbar {
     width: 7px;
     background-color: rgba(136, 205, 255, 0.766);
   }
-  .services-cards-container::-webkit-scrollbar-thumb{
+
+  .services-cards-container::-webkit-scrollbar-thumb {
     background-color: var(--blue-king);
     border-radius: 5px;
 
@@ -119,11 +120,23 @@
   background-image: url(../Assets/images/tablet/events-gala.webp);
 }
 
-@media (min-width: 500px) {
+@media (min-width: 600px) {
   .event-container .right-body {
     width: 200px;
     text-align: right;
     position: relative;
     left: calc(51%);
+  }
+
+  /* Contacto */
+
+
+  .main-section-contact {
+    display: flex;
+  }
+
+  .main-section-contact .contacto-formulario,
+  .contacto-visitanos {
+    min-width: 50%;
   }
 }

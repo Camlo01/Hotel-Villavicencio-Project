@@ -520,18 +520,197 @@ main .main-section-events {
 
 .main-section-logo {
   background-color: #e7e7e7;
-
-  height: 400px;
+  height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.section-logo-img {
+.main-section-contact h2 {
+
+  display: block;
+  margin: 0 auto;
+  font-family: "Impact";
+  font-size: 2.5rem;
+  color: white;
+  width: 260px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.main-section-contact .contacto-formulario,
+.contacto-visitanos~p {
+
+  width: 250px;
+  height: 48px;
+  font-family: 'Palanquin Dark';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  margin: 10px auto 50px;
+}
+
+/* Estilos generales de las dos secciones de main-section-contact */
+.contacto-formulario {
+  background-image: url(../Assets/images/phone/contacto-formulario.png);
+}
+
+.contacto-visitanos {
+  background-image: url(../Assets/images/phone/contacto-mapa.png);
+}
+
+.main-section-contact>div {
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+
+form {
+  padding-top: 1px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  min-width: 230px;
+  max-width: 240px;
+}
+
+form input {
+  padding: 8px;
+  width: 100%;
+  margin: 5px auto;
+  border: 3px solid #ffffff;
+  border-radius: 4px;
+  color: rgb(230, 230, 230);
+  background: rgba(255, 255, 255, 0.150);
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+form textarea {
+  margin: 5px 0;
+  padding: 8px 0px 0px 8px;
+  border: 3px solid #ffffff;
+  height: 135px;
+  border-radius: 4px;
+  resize: none;
+  color: rgb(230, 230, 230);
+  background: rgba(255, 255, 255, 0.150);
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+form button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: rgba(168, 50, 40, 1);
+  color: white;
+  border: 3px solid #E4E4E4;
+  border-radius: 10px;
+  font-size: 1.7rem;
 }
 
 
 
 
 
-.menu-contact {}
+
+
+/* 
+
+
+.contacto-formulario p {
+  width: 250px;
+  height: 48px;
+  font-family: 'Palanquin Dark';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  margin: 10px auto 50px;
+}
+
+
+
+.contacto-visitanos {
+  height: auto;
+}
+
+.contacto-visitanos h2 {
+  display: block;
+  margin: 0 auto;
+  font-family: "Impact";
+  font-size: 2.5rem;
+  color: white;
+  width: 260px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.contacto-visitanos p {
+  font-size: 1.6rem;
+  font-family: "Palanquin Dark";
+  font-weight: 400;
+  line-height: 1.6rem;
+  color: white;
+  margin: 0 auto;
+  padding: 3px 0 25px;
+}
+
+form {
+  padding-top: 1px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  min-width: 230px;
+  max-width: 240px;
+}
+
+form input {
+  padding: 8px;
+  width: 100%;
+  margin: 5px auto;
+  border: 3px solid #ffffff;
+  border-radius: 4px;
+  color: rgb(230, 230, 230);
+  background: rgba(255, 255, 255, 0.150);
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+form textarea {
+  margin: 5px 0;
+  padding: 8px 0px 0px 8px;
+  border: 3px solid #ffffff;
+  height: 135px;
+  border-radius: 4px;
+  resize: none;
+  color: rgb(230, 230, 230);
+  background: rgba(255, 255, 255, 0.150);
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+form button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: rgba(168, 50, 40, 1);
+  color: white;
+  border: 3px solid #E4E4E4;
+  border-radius: 10px;
+  font-size: 1.7rem;
+} */
